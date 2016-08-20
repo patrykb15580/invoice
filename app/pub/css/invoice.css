@@ -1,0 +1,93 @@
+﻿@charset "utf-8";
+div#box{
+	display: block;
+	width: 82%;
+	height: auto;
+	padding: 20px 1% 20px 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 1px;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+}
+div#nrfaktury{
+	display: block;
+	background-color: grey;
+	width: 98%;
+	height: auto;
+	border-top: 2px;
+	border-right: 0px;
+	border-bottom: 2px;
+	border-left: 0px;
+	border-color: black;
+	border-style: solid;
+	margin: 0px;
+	font-style: calibri;
+	font-size: 48px;
+	padding: 10px;
+}
+div#danebox{
+	display: block;
+	width: 100%;
+	height: 220px;
+	padding: 0px;
+	margin: 0px
+}
+div#danesprzedawca{
+	display: block;
+	width: 47%;
+	height: 220px;
+	margin: 0px 1% 0px 2%;
+	font-size: 20px;
+	float: left;
+}
+div#danenabywca{
+	display: block;
+	width: 47%;
+	height: 220px;
+	margin: 0px 2% 0px 1%;
+	font-size: 20px;
+	float: left;
+}
+h1{
+	font-size: 36px;
+}
+p{
+	font-size: 18px;
+}
+table{
+	width: 100%;
+}
+div#tabela{
+	width: auto;
+	margin: auto;
+	text-align: center;
+	font-family: calibri;
+	font-size: 26px;
+}
+img#logo{
+	display: inline-block;
+	width: 30%;
+	margin: 10px 40% 10px 10px;
+}
+div#data{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: 0px 0px 10px 0px;
+	font-size: 24px;
+	font-family: calibri;
+}
+tr, td {
+	margin: 0px;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}

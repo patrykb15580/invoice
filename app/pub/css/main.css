@@ -1,0 +1,89 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+	padding-top: 2%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+form{
+	width: auto;
+	margin: 5%;
+	padding: 20px;
+	border: 1px;
+	border-radius: 15px 15px 15px 15px;
+	border-style: solid;
+}
+input[type=text]{
+	width: 80%;
+	margin: 0px 0px 4px 0px;
+}
+input[type=submit]{
+	display: block;
+	position: right;
+	width: auto;
+	height: auto;
+	background-color: grey;
+	text-align: center;
+	margin: 8px 12px 12px 12px;
+	padding: 6px;
+	color: white;
+	border: 1px;
+	border-color: white;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	font-size: 16px;
+}
+input[type=submit]:hover{
+	display: block;
+	position: right;
+	width: auto;
+	height: auto;
+	background-color: #939393;
+	text-align: center;
+	margin: 3px 2px 12px 2px;
+	padding: 6px;
+	color: white;
+	border: 1px;
+	border-color: white;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;	
+}
+button{
+	display: block;
+	width: auto;
+	height: auto;
+	background-color: grey;
+	float: right;
+	margin: 6px 10% 10px auto;
+	padding: 4px;
+	color: white;
+	font-size: 20px;
+	font-family: calibri;
+	border: 0px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	
+}
+button:hover{
+	display: block;
+	width: auto;
+	height: auto;	
+	background-color: #939393;
+	float: right;
+	margin: 2px 10% 6px auto;
+	padding: 4px;
+	color: white;
+	font-size: 24px;
+	font-family: calibri;
+	border: 0px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+}
