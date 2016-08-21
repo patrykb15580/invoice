@@ -6,11 +6,14 @@
 		Faktura
 		</title>
 		<link rel="stylesheet" type="text/css" href="app/pub/css/main.css">
-		<link rel="stylesheet" type="text/css" href="app/pub/css/faktura.css">
+		<link rel="stylesheet" type="text/css" href="app/pub/css/invoice.css">
 	</head>
 	<body>
-
-<form action="app/lib/generate.php" method="POST">
+<form id="search" action="//localhost/zadanie-faktura/app/lib/actions/search.php" method="POST">
+	Wpisz nazwę klienta
+	<br /><input id="search_criterion" type="text" name="criterion" placeholder="Search..."><input id="search_start" type="submit" value="">
+</form>
+<form id="invoice" action="//localhost/zadanie-faktura/app/lib/actions/generate.php" method="POST">
 	<img id="logo" src="app/graphics/booklet-logo.png">
 		<div id="data">Data wystawienia faktury:
 			<br /><?php echo date('d.m.Y') ?>
@@ -56,7 +59,7 @@
 				</tr>
 			</table>
 		</div>
-		<br /><input type="submit" value="Zatwierdź fakturę">
+		<br /><input id="invoice_submit" type="submit" value="Zatwierdź fakturę">
 </form>
 	</body>
 </html>

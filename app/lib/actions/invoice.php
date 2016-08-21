@@ -45,6 +45,7 @@
 </div>
 <br />
 <a href="//localhost/zadanie-faktura/invoices/<?= $_SESSION['output'] ?>" target="_blank"><button>Wyświetl PDF</button></a>
+<br /><a href="//localhost/zadanie-faktura/index.php"><button>Strona główna</button></a>
 <?php
 	session_destroy();
 ?>
